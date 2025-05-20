@@ -1,7 +1,7 @@
 public class Funcionario {
     private Long id;
-    private String nome;
-    private int idade;
+    private String nome = "Raul";
+    private int idade = 23;
 
     public Long getId() {
         return id;
